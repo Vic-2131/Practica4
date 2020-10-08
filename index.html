@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practica 4</title>
+</head>
+<body>
+    <section class="Form-registro">
+        <h4>Formulario Registro</h4>
+        <input class="Controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" >
+        <input class="Controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apeliidos" >
+        <input class="Controls" type="text" name="grado" id="grado" placeholder="Ingrese su grado y grupo" >
+        <input class="Controls" type="text" name="correo" id="correo" placeholder="Ingrese su correo institucional" >
+        <input class="Controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña" >
+        <div class="turno">Turno: <br>
+            <input type="radio" id="matutino" name="turno" value="matutino">
+            <label for="matutino">Matutino</label><br>
+            <input type="radio" id="vespertino" name="turno" value="vespertino">
+            <label for="vespertino">Vespertino</label><br>
+        </div>
+        <div class="espe">
+            <label for="Especialidad">Especialidad:</label>
+            <select name="especialidad">
+                <option value="pro">Programacion</option>
+                <option value="con">Construccion</option>
+                <option value="ali">Alimentos</option>
+                <option value="conta">Contabilidad</option>
+                <option value="logis">Logistica</option>
+                <option value="elec">Electronica</option>
+                <option value="" selected="selected">Selecciona tu especialidad</option>
+            </select>
+        </div>
+        <div class="actividad">Selecciona tu actividad extraescolar: <br/>
+            <input type="checkbox" id="Futbol" name="extraescolar" value="Futbol">
+            <label for="Futbol">Futbol</label><br>
+            <input type="checkbox" id="Basquetboll" name="extraescolar" value="Basquetboll">
+            <label for="Basquetboll">Basquetboll</label><br>
+            <input type="checkbox" id="Voleibol" name="extraescolar" value="Voleibol">
+            <label for="Voleibol">Voleibol</label><br>
+            <input type="checkbox" id="Teatro" name="extraescolar" value="Teatro">
+            <label for="Teatro">Teatro</label><br>
+            <input type="checkbox" id="Danza" name="extraescolar" value="Danza">
+            <label for="Danza">Danza</label><br>
+            <input type="checkbox" id="Canto" name="extraescolar" value="Canto">
+            <label for="Canto">Canto</label><br>
+            <input type="checkbox" id="Poesia" name="extraescolar" value="Poesia">
+            <label for="Poesia">Poesia</label><br>
+            <input type="checkbox" id="Rondalla" name="extraescolar" value="Rondalla">
+            <label for="Rondalla">Rondalla</label><br>
+            <input type="checkbox" id="Banda de musica" name="extraescolar" value="Banda de musica">
+            <label for="Banda de musica">Banda de musica</label><br>
+            <input type="checkbox" id="Proteccion civil" name="extraescolar" value="Proteccion civil">
+            <label for="Proteccion civil">Proteccion civil</label><br>
+        </div><br>
+        <p>Estoy de acuerdo con los Terminos y Condiciones</p>
+        <input class="botones" type="submit" value="Registrar"><p>
+            <a href="#">Ya tengo una cuenta</a></p>
+    </section>
+    
+</body>
+</html>
